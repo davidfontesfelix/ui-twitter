@@ -1,0 +1,25 @@
+@import './variables';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  body {
+    background-color: $twitter-black;
+    color: #E1E1E6;
+    -webkit-font-smoothing: antialiased;
+
+    button {
+      cursor: pointer;
+    }
+
+    a{
+      color: inherit;
+    }
+  }
+  body, input, textarea, button{
+    font: 400 1rem Roboto, sans-serif;
+  }
+}
+
